@@ -24,12 +24,28 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/style.css",
+              "src/assets/vendor/fontawesome-5.6.1/css/all.min.css",
+              "src/assets/fonts/stroyka/stroyka.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/jquery-3.3.1/jquery.min.js",
+              "src/assets/vendor/bootstrap-4.2.1/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/owl-carousel-2.3.4/owl.carousel.min.js",
+              "src/assets/vendor/nouislider-12.1.0/nouislider.min.js",
+              "src/assets/vendor/svg4everybody-2.1.9/svg4everybody.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/number.js"
+            ]
           },
           "configurations": {
             "production": {
